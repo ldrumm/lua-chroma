@@ -7,7 +7,9 @@ return setmetatable({
         magenta = "\x1b[35m",
         cyan = "\x1b[36m",
         gray = "\x1b[90m",
+        grey = "\x1b[90m",
         light_gray = "\x1b[37m",
+        light_grey = "\x1b[37m",
         peach = "\x1b[91m",
         light_green = "\x1b[92m",
         yellow = "\x1b[93m",
@@ -23,7 +25,9 @@ return setmetatable({
             magenta = "\x1b[45m",
             cyan = "\x1b[46m",
             gray = "\x1b[47m",
+            grey = "\x1b[47m",
             light_gray = "\x1b[100m",
+            light_grey = "\x1b[100m",
             peach = "\x1b[101m",
             light_green = "\x1b[102m",
             yellow = "\x1b[103m",
@@ -67,7 +71,7 @@ return setmetatable({
                 end,
                 __index = function(proxy, k)
                     return root_table[k]
-                end
+                end,
             })
         else
             return rawget(self, index)
