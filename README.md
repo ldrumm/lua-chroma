@@ -24,7 +24,7 @@ This project is an attempt to simplify colour test formatting on ANSI mode conso
     --[[ We can also do that in a different order because the formatting 
          table indexes are generated dynamically
     ]]
-    print.green.bold("Such a poor choice of words\n\n")
+    print.bold.green("Such a poor choice of words\n\n")
     --Let's print today's headline
     
     print.highlight.gray(string.rep(' ', 80))
