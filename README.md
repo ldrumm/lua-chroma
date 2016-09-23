@@ -1,9 +1,12 @@
 lua-chromaprint
 ===============
 
-Simple colour text printing for ANSI compatible terminals.  Lua5.2.
+Simple colour text printing for ANSI compatible terminals.
 
-This project is an attempt to simplify colour test formatting on ANSI mode consoles allowing easy data-driven formatting of text.
+Lua5.1, 5.2, 5.3 luajit2
+
+This project is an attempt to simplify colour test formatting
+on ANSI mode consoles allowing easy data-driven formatting of text.
 
 <h4>Example</h4>
 ```lua
