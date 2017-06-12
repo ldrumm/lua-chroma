@@ -9,6 +9,7 @@ This project is an attempt to simplify colour test formatting
 on ANSI mode consoles allowing easy data-driven formatting of text.
 
 <h4>Example</h4>
+
 ```lua
     --[[ Here we are overriding the standard Lua print function.
         All existing print() calls will continue to work normally, though, so
