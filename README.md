@@ -5,6 +5,8 @@ Simple colour text printing for ANSI compatible terminals.
 
 Lua5.1, 5.2, 5.3 luajit2
 
+Install with `luarocks install chroma`
+
 This project is an attempt to simplify colour test formatting
 on ANSI mode consoles allowing easy data-driven formatting of text.
 
